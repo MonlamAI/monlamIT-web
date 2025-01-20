@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Monlam';
+	src: url(../../assets/fonts/MonlamTBslim.eot) format('embedded-opentype'),
+	url(../../assets/fonts/MonlamTBslim.eot) format('embedded-opentype'),
+	url(../../assets/fonts/MonlamTBslim.woff2) format('woff2'),
+	url(../../assets/fonts/MonlamTBslim.woff) format('woff'),
+	url(../../assets/fonts/MonlamTBslim.ttf) format('truetype'),
+	url(../../assets/fonts/MonlamTBslim.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

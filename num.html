@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Numbers Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>1000 Unique 6-digit Numbers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Number</th>
+            </tr>
+        </thead>
+        <tbody id="numbers-table">
+        </tbody>
+    </table>
+
+    <script>
+        function generateUniqueNumbers(count, digits) {
+            const numbers = new Set();
+            while (numbers.size < count) {
+                const num = Math.floor(Math.random() * (9 * Math.pow(10, digits - 1))) + Math.pow(10, digits - 1);
+                numbers.add(num);
+            }
+            return Array.from(numbers);
+        }
+
+        const uniqueNumbers = generateUniqueNumbers(1000, 6);
+        const table = document.getElementById('numbers-table');
+
+        uniqueNumbers.forEach(number => {
+            const row = document.createElement('tr');
+            const cell = document.createElement('td');
+            cell.textContent = number;
+            row.appendChild(cell);
+            table.appendChild(row);
+        });
+    </script>
+</body>
+</html>

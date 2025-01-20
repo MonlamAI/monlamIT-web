@@ -1,0 +1,204 @@
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  background-color: #000!important;
+  z-index: 9999;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Monlam';
+}
+
+.navbar-dark .navbar-nav .nav-link .monlam-logo {
+  font-size: 21px;
+}
+
+body {
+  padding-top: 0px;
+}
+
+.product {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.product h2 {
+  /*font-size: 27px;*/
+  font-weight: 400;
+}
+
+.product .links {
+  font-size: 19px;
+  font-family: 'Monlam';
+  text-decoration: none !important;
+}
+
+.learn-more {
+  margin-right: 19px;
+}
+
+.lb-img {
+  text-align: center;
+  margin: auto;
+}
+
+.jar-img {
+  margin: auto;
+}
+
+.mg-img {
+  margin: auto;
+}
+
+@media (min-width: 300px) {
+  .product-small {
+    height: 550px;
+    padding-top: 40px;
+    margin: 0 0 10px 10px;
+    text-align: center;
+  }
+}
+
+.product-small {
+  height: 450px;
+  padding-top: 40px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+.product-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.product-small .links {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.products-grid {
+  padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .products-grid {
+    padding-right: 10px;
+  }
+}
+
+.icon-linke {
+  position: relative;
+  top: 4px;
+  font-size: 23px;
+}
+
+.lb-app {
+  text-align: center;
+}
+
+.product-small {
+  margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .product-small {
+    margin-left: 10px;
+  }
+}
+
+.search-icon {
+  font-size: 15px;
+  position: relative;
+}
+
+.shop-card {
+  font-size: 15px;
+  position: relative;
+}
+
+.navbar-toggler {
+  border: none !important;
+  margin: 4px;
+}
+
+.location-icon {
+  position: relative;
+  top: 2px;
+}
+
+h1 {
+  font-weight: 400!important;
+}
+
+.info-text-small {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px !important;
+}
+
+.h1-ml {
+  font-size: 38px !important;
+}
+
+@media (min-width: 576px) {
+  .h1-ml {
+    font-size: 56px !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .info-text-small {
+    /*font-size: 26px !important;*/
+  }
+}
+
+.div-button-hover:hover {
+  background-color: rgba(153,153,153,0.08);
+  border-radius: 7px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #898989!important;
+  border-bottom: 3px solid #0d6efd!important;
+  border-top: rgba(153,153,153,0.27);
+  border-right: rgba(153,153,153,0.27);
+  border-left: 0;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #4f4f4f!important;
+  border-top: rgba(153,153,153,0.27);
+  border-right: rgba(153,153,153,0.27);
+  border-left: 0;
+}
+
+.download-button:hover {
+  background-color: #d1e5fc!important;
+}
+
+.row-fluid {
+  overflow-x: auto;
+  white-space: nowrap;
+  transform-origin: top left;
+  width: 2000px!important;
+}
+
+.row-fluid .apps {
+  display: inline-block;
+  float: none;
+}
+

@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Monlam DicA2021';
+	src: url(../../assets/fonts/MonlamDicA2021-Regular.eot) format('embedded-opentype'),
+	url(../../assets/fonts/MonlamDicA2021-Regular.eot) format('embedded-opentype'),
+	url(../../assets/fonts/MonlamDicA2021-Regular.woff2) format('woff2'),
+	url(../../assets/fonts/MonlamDicA2021-Regular.woff) format('woff'),
+	url(../../assets/fonts/MonlamDicA2021-Regular.ttf) format('truetype'),
+	url(../../assets/fonts/MonlamDicA2021-Regular.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
